@@ -127,6 +127,7 @@ public class Q1Test {
           if (low > high) {
                return true;
           }
+          
           int size = high - low + 1;
           int root = preorder[preStart];
           if (root != postorder[postStart + size - 1]) {
